@@ -1,0 +1,288 @@
+body{
+    font-family: sans-serif;
+}
+
+#logo{
+    width: 200px;
+    height: 54px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+}
+
+.btn{
+    margin: 5px;
+    width: 150px;
+    height: 40px;
+}
+
+#bank-details{
+    margin-right: 15px;
+}
+
+.nav-item{
+    margin: 4px;
+}
+
+.container-fluid{
+    height: 80px;
+    box-shadow: 10px 1px 1px 1px gainsboro;
+}
+
+p{
+    width: 600px;
+    margin-left: 15px;
+}
+
+#img-1{
+    width: 550px;
+    float: right;
+    display: inline-block;
+}
+
+.top-heading{
+    margin-top: 100px;
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.top2-headig,.top-heading{
+    margin-left: 15px;
+}
+
+.top2-headig{
+    margin-bottom: 10px;
+}
+
+#explore{
+    height: 63px;
+    margin-left: 15px;
+    margin-bottom: 170px;
+}
+
+.d-flex{
+    background-color: hsla(84, 69%, 73%, 0.4);
+    height: 135px;
+    width: 1220px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+#general{
+    background-color: #424242;
+    color: white;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: relative;
+    top: 40px;
+    left: 15px;
+    z-index: 1;
+}
+
+#rs{
+    background-color: #424242;
+    color: white;
+    height: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    top: 40px;
+    right: 65px;
+}
+
+#num-input{
+    height: 50px;
+    position: relative;
+    top: 32px;
+    right: 27px;
+    padding-left: 35px;
+}
+
+.p-2{
+    margin-top: 43px;
+    margin: 0 auto;
+    height: 50px;
+}
+
+#q-donate{
+    height: 50px;
+    position: relative;
+    top: 34px;
+    right: 20px;
+}
+
+#blood,#family,#medical{
+    background-color: white;
+    font-weight: 500;
+    border-radius: 10px;
+
+}
+
+#food{
+    background-color: white;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+#blood{
+   width: 320px;
+   position: relative;
+   top: 40px;
+   right: 55px;
+}
+
+#family{
+    width: 140px;
+    position: relative;
+    top: 40px;
+    right: 45px;
+}
+
+#medical{
+    width: 100px;
+    position: relative;
+    top: 40px;
+    right: 40px;
+}
+
+#food{
+    width: 90px;
+    position: relative;
+    top: 40px;
+    right: 30px;
+}
+
+#food:hover{
+    background-color: #424242;
+    color: white;
+    width: 100px;
+}
+
+#blood:hover{
+    background-color: #424242;
+    color: white;
+    width: 340px;
+}
+
+#family:hover{
+    background-color: #424242;
+    color: white;
+    width: 155px;
+}
+
+#medical:hover{
+    background-color: #424242;
+    color: white;
+    width: 115px;
+}
+
+#q-donate:hover{
+    height: 60px;
+    width: 165px;
+}
+
+#img-2,#img-3{
+    width: 1237px;
+    height: 560px;
+}
+
+.top-heading{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.cards{
+    height: 152px;
+    width: 185px;
+    background-color:  hsla(84, 69%, 73%, 0.4);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.card-imgs{
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.parent-card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.span-card{
+    font-weight: bold;
+    font-size: large;
+    position: relative;
+    top: 90px;
+    right: 10px;
+}
+
+.cards:hover{
+    height: 172px;
+    width: 205px;
+    background-color:  hsla(84, 69%, 73%, 0.7);
+}
+
+#top-div{
+    width: 100%;
+    height: 37px;
+    background-color: #eee;
+    padding-top: 7px;
+}
+
+.flags{
+    width: 20px;
+    position: relative;
+    bottom: 2px;
+}
+
+#language{
+    position: relative;
+    left: 460px;
+}
+
+#guide{
+    text-align: center;
+    background-color: rgba(59,130,246,0.8);
+    width: 1240px;
+    height: 270px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+#last-h1{
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+#email-input{
+        margin-bottom: 5px;
+        width: 600px;
+        height: 50px;
+        border-radius: 5px;
+        border: white;
+        padding-left: 20px;
+}
+
+#subscribe{
+    display: block;
+    position: relative;
+    left: 320px;
+    width: 600px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: white;
+}
+
+#footer{
+    width: 100%;
+    background-image:url(./footer.png);
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
